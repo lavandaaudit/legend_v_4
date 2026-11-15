@@ -1,0 +1,47 @@
+	
+
+	City Kit Commercial (2.1)
+
+	Created/distributed by Kenney (www.kenney.nl)
+	Creation date: 21-07-2025 18:16
+	
+			------------------------------
+
+	License: (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	You can use this content for personal, educational, and commercial purposes.
+
+	Support by crediting 'Kenney' or 'www.kenney.nl' (this is not a requirement)
+
+			------------------------------
+
+	• Website : www.kenney.nl
+	• Donate  : www.kenney.nl/donate
+
+	• Patreon : patreon.com/kenney
+	
+	Follow on social media for updates:
+
+	• Twitter:	 twitter.com/KenneyNL
+	• BlueSky:	 kenney.bsky.social
+	• Instagram: instagram.com/kenney_nl
+	------------------------------	IBONARIUM: KYIV NOTE ------------------------------
+
+	This project uses renders of the following Kenney (www.kenney.nl) City Kits,
+	all licensed under Creative Commons Zero (CC0):
+	  - City Kit (Commercial)
+	  - City Kit (Industrial)
+	  - City Kit (Suburban)
+	  - City Kit (Roads)
+
+	The 3D models were projected into the game's 2:1 isometric pixel grid
+	(scripts: tools/kenney_render.py + tools/build_assets.py; output: assets/*.png).
+	Characters, landmark silhouettes and item icons are drawn in code
+	(kenney palette) and are not Kenney assets.
+
+	Full kits are available for free at:
+	  https://kenney.nl/assets/city-kit-commercial
+	  https://kenney.nl/assets/city-kit-industrial
+	  https://kenney.nl/assets/city-kit-suburban
+	  https://kenney.nl/assets/city-kit-roads

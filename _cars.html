@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body{background:#20242c;margin:0;padding:6px}canvas{image-rendering:pixelated}</style></head>
+<body>
+<canvas id="cv" width="980" height="470"></canvas>
+<script src="js/palette.js"></script>
+<script src="js/sprites.js"></script>
+<iframe id="oldf" src="_old/old.html" style="width:0;height:0;border:0"></iframe>
+<script>
+window.onload=()=>{
+  const cv=document.getElementById('cv'),g=cv.getContext('2d');
+  g.imageSmoothingEnabled=false;
+  const draw=(SPR,ox,oy,label)=>{
+    g.fillStyle='#e0b040';g.font='bold 12px monospace';g.fillText(label,ox+4,oy+12);
+    const shots=[['vaz','se'],['vaz','ne'],['lanos','se'],['skoda','se'],['taxi','se'],['suv','se'],['truck','se']];
+    let x=ox+6,y=oy+22;
+    for(const [m,d] of shots){
+      const img=SPR.cars[m][d];
+      g.fillStyle='#111318';g.fillRect(x-3,y-3,img.width*2+6,img.height*2+6);
+      g.drawImage(img,x,y,img.width*2,img.height*2);
+      g.fillStyle='#9aa0ae';g.font='9px monospace';g.fillText(m,x,y-6);
+      x+=img.width*2+12;
+    }
+  };
+  draw(IB.SPR,4,4,'BATCH 11 (new)');
+};
+</script></body></html>
